@@ -1,0 +1,18 @@
+.container {
+    padding: 10px;
+    height: 80%;
+    width: 100%;
+    background: whitesmoke;
+    box-sizing: border-box;
+}
+
+
+.calculator-display {
+    border: 1px solid black;
+    min-height: 3rem;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+}
