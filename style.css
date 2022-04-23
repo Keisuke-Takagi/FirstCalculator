@@ -2,7 +2,7 @@
     padding: 10px;
     height: 80%;
     width: 100%;
-    background: whitesmoke;
+    background: mediumseagreen;
     box-sizing: border-box;
 }
 
@@ -16,3 +16,29 @@
 .row {
     display: flex;
 }
+
+.calculator-button {
+    height: 34px;
+    width: 93px;
+    background: #f1f3f4;
+    margin:4px 4px 4px 4px;
+    text-align:center;
+    line-height: 34px;
+    border-radius: 4px;
+
+
+}
+
+.button-equal {
+    background: #4285f4;
+    color: #fff;
+}
+
+.button-division, 
+.button-multiplication, 
+.button-minus, 
+.button-plus {
+    background-color: rgb(218, 220, 224);
+}
+
+
