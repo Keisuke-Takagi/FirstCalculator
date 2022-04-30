@@ -1,5 +1,3 @@
 function calc(value) {
-    console.info(value);
+    console.info('aaa');
 }
-
-
