@@ -5,42 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="./app.js"></script>
     <title>電卓サンプル プロジェクト</title>
 </head>
 <body>
     <h1>電卓サンプル</h1>
     <div class="container">
         <div class="calculator">
-            <div class="calculator-display">
+            <input class="calculator-display" id="calculator-display" type="text" />
                 <!-- ここに計算結果を表示 -->
-            </div>
+            </div>  
             <div class="calculator-keyboards">
                 <div class="row">
-                    <div class="calculator-button">7</div>
-                    <div class="calculator-button">8</div>
-                    <div class="calculator-button">9</div>
+                    <div onClick="showDisplay(7)" class="calculator-button">7</div>
+                    <div onClick="showDisplay(8)" class="calculator-button">8</div>
+                    <div onClick="showDisplay(9)" class="calculator-button">9</div>
                     <div class="calculator-button button-division">÷</div>
                 </div>
                 <div class="row">
-                    <div class="calculator-button">4</div>
-                    <div class="calculator-button">5</div>
-                    <div class="calculator-button">6</div>
-                    <div class="calculator-button button-multiplication">X</div>
+                    <div onClick="showDisplay(4)" class="calculator-button">4</div>
+                    <div onClick="showDisplay(5)" class="calculator-button">5</div>
+                    <div onClick="showDisplay(6)" class="calculator-button">6</div>
+                    <div class="calculator-button button-multiplication">x</div>
                 </div>
                 <div class="row">
-                    <div class="calculator-button">1</div>
-                    <div class="calculator-button">2</div>
-                    <div class="calculator-button">3</div>
+                    <div onClick="showDisplay(1)" class="calculator-button">1</div>
+                    <div onClick="showDisplay(2)" class="calculator-button">2</div>
+                    <div onClick="showDisplay(3)" class="calculator-button">3</div>
                     <div class="calculator-button button-minus">-</div>
                 </div>
                 <div class="row">
-                    <div class="calculator-button">0</div>
-                    <div class="calculator-button">.</div>
+                    <div onClick="showDisplay(0)" class="calculator-button">0</div>
+                    <div onClick="showDisplay('.')" class="calculator-button">.</div>
                     <div class="calculator-button button-equal">=</div>
                     <div class="calculator-button button-plus">+</div>
                 </div>
             </div>
         </div>
     </div>
+    	
 </body>
 </html>
